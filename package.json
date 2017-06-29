@@ -1,0 +1,28 @@
+{
+  "name": "pontal-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for NodeJs projects in Pontal Telecom",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "keywords": [
+    "boilerplate",
+    "pontal",
+    "nodejs"
+  ],
+  "author": "Pontal Telecom",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.0",
+    "restify": "^4.3.1",
+    "winston": "^2.3.1"
+  }
+}

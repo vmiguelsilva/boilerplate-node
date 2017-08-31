@@ -1,6 +1,6 @@
-const restify = require('restify');
-const logger = require(__base + '/app/lib/logger');
-const Router = require(__base + 'app/server/router');
+import  restify from 'restify';
+import  logger from '../lib/logger';
+import Router from './router';
 
 class Server {
   constructor () {
@@ -13,4 +13,4 @@ class Server {
   }
 }
 const server = new Server();
-module.exports = server;
+export default server;

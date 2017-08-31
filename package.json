@@ -4,7 +4,8 @@
   "description": "Boilerplate for NodeJs projects in Pontal Telecom",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --forceExit",
+    "start" : "babel-node index.js"
   },
   "keywords": [
     "boilerplate",
@@ -14,6 +15,9 @@
   "author": "Pontal Telecom",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "jest": "^20.0.4"
   },
   "dependencies": {

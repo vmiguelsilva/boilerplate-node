@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const logger = require(__base + 'app/lib/logger');
+import mongoose from 'mongoose';
+import logger from '../lib/logger';
 const mongo = 'mongodb://' + process.env.MONGO_HOST + '/' + process.env.MONGO_DB;
 
 mongoose.Promise = require('bluebird');
